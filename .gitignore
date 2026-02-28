@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Dependency directories (optional, if you're not using Go Modules or need to vendor dependencies differently)
+# vendor/
+
+# Project-local vendored dependencies
+# Godep
+# Gopkg.lock
+# Gopkg.toml
+
+# IDE-specific files and directories (examples for common IDEs)
+.idea/         # JetBrains IDEs (GoLand, IntelliJ)
+.vscode/       # VS Code
+*.iml          # JetBrains project file
+.project       # Eclipse
+.classpath
+.c9/           # AWS Cloud9
+*.sublime-project # Sublime Text
+*.sublime-workspace
+
+# OS and temporary files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+ehthumbs.db
+[Tt]humbs.db
+*.stackdump    # Go runtime stack dumps
